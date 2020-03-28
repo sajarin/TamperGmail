@@ -2,7 +2,7 @@
 // @name         'Select all' in Basic HTML View in Gmail
 // @namespace    http://vaxquis.tk
 // @version      0.1
-// @description  an easy way to select all mails in basic HTML view of Gmail
+// @description  An easy way to select all mails in HTML Gmail
 // @author       vaxquis, Shaedil
 // @match        https://mail.google.com/*
 // @grant        none

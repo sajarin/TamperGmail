@@ -5,7 +5,7 @@
 // @description  Dark mode for HTML Gmail
 // @author       Shaedil, Sajarin
 // @run-at       document-start
-// @match        https://mail.google.com/mail/*
+// @include      /^https?:\/\/mail.google.com\/mail\/u\/\d\/h\/[a-zA-Z0-9]+\/\?/
 // @grant        none
 // ==/UserScript==
 

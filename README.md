@@ -1,15 +1,16 @@
 # TamperGmail
-A suite of tampermonkey scripts to enhance html gmail functionality 
+A suite of tampermonkey scripts to enhance html gmail functionality. This can only be used in conjunction with the google chrome extension TamperMonkey and other, related extensions. Our features include:
 
-## Tamperscripts:
+## Features:
 - [X] Dark Mode for HTML Gmail
 - [X] Select All & Deselect All
-- [ ] Desktop Notification for New Emails
-- [ ] Schedule Send
-    * Viewing scheduled mail and sending scheduled mail
+- [X] Load the tampermonkey script asap
 
 ## TODO:
 - [ ] Change the tamperscripts to only target html gmail, not Standard View
+   * HTML Gmail has seemingly random characters following its baseurl of `https://mail.google.com/mail/u/0/h/` but Standard View just has the baseurl.
+   * Perhaps using a regex expression here in the target url, fitting all the alphabetic and numberic characters, can help.
 - [ ] Change color of header links to fit dark theme
-  - Figure out a way to override the ``!important`` that is present in the css
-- [ ] Finish and add unfinished tamperscripts
+- [ ] Desktop Notification for New Emails
+- [ ] Schedule Send
+    * Viewing scheduled mail and sending scheduled mail

@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  View scheduled mail in HTML Gmail
 // @author       Shaedil
-// @match        https://mail.google.com/mail/*
+// @include      /^https?:\/\/mail.google.com\/mail\/u\/\d\/h\/[a-zA-Z0-9]+\/\?/
 // @grant        none
 // ==/UserScript==
 

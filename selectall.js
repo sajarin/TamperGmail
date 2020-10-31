@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  An easy way to select all mails in HTML Gmail
 // @author       vaxquis, Shaedil
-// @match        https://mail.google.com/*
+// @include      /^https?:\/\/mail.google.com\/mail\/u\/\d\/h\/[a-zA-Z0-9]+\/\?/
 // @grant        none
 // ==/UserScript==
 

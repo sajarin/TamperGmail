@@ -6,7 +6,6 @@
 // @author       Shaedil, Sajarin
 // @run-at       document-start
 // @match        https://mail.google.com/mail/u/*/h/*/*
-// @require      file://C:/Users/Home PC/Desktop/TamperGmail/darkmode.js
 // @grant        none
 // ==/UserScript==
 

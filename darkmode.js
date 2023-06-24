@@ -1,3 +1,15 @@
+// ==UserScript==
+// @name         HTML Gmail Dark Mode
+// @namespace    http://tampermonkey.net/
+// @version      0.2
+// @description  Dark mode for HTML Gmail
+// @author       Shaedil, Sajarin
+// @run-at       document-start
+// @match        https://mail.google.com/mail/u/*/h/*/*
+// @require      file://C:/Users/Home PC/Desktop/TamperGmail/darkmode.js
+// @grant        none
+// ==/UserScript==
+
 (function() {
   'use strict';
   var css = `\

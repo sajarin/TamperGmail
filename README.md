@@ -1,5 +1,8 @@
 # TamperGmail
-A suite of tampermonkey scripts to enhance html gmail functionality. This can only be used in conjunction with the google chrome extension TamperMonkey and other, related extensions. Our features include:
+A suite of tampermonkey scripts designed to enhance HTML gmail functionality.
+These scripts are used in 
+[TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo),
+but you can use any other userscript chrome extension
 
 ## Features:
 - [X] Dark Mode for HTML Gmail
@@ -7,10 +10,19 @@ A suite of tampermonkey scripts to enhance html gmail functionality. This can on
 - [X] Load the tampermonkey script asap
 
 ## TODO:
-- [ ] Change the tamperscripts to only target html gmail, not Standard View
-   * HTML Gmail has seemingly random characters following its baseurl of `https://mail.google.com/mail/u/0/h/` but Standard View just has the baseurl.
-   * Perhaps using a regex expression here in the target url, fitting all the alphabetic and numberic characters, can help.
-- [ ] Change color of header links to fit dark theme
-- [ ] Desktop Notification for New Emails
+- [X] Change the tamperscripts to only target html gmail, not Standard View
+- [X] Change color of header links to fit dark theme
+- [ ] New Email Notifications
+    * Polling every 5 minutes and if unread email number increments, then
+      change title of browser tab with number of new unread emails.
+    * When the browser tab is focused on html gmail, reset counter of new
+      unread emails to 0.
 - [ ] Schedule Send
     * Viewing scheduled mail and sending scheduled mail
+- [ ] Google Chat integration
+    * Includes Spaces and Chats.
+    * Must include critical features from modern gmail into html gmail:
+        * [ ] Support rich text like bold, italic, underline, bulleted list and strikethrough.
+        * [ ] Send multimedia like anytype files, emoji, and gifs.
+        * [ ] Fuzzy search in chat
+        * [ ] Adjustable chat window size

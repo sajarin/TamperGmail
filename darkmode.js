@@ -78,6 +78,9 @@
     color: #FF5D62 !important;\
     // unread email date & time column
   }\
+  table[bgcolor='#C3D9FF'] > tbody > tr > td {\
+    background-color: #223249 !important;\
+  }\
   tbody > tr > td:nth-child(2) > form > table.th > tbody > tr[bgcolor='#E8EEF7'] > td[nowrap=''] {\
     color: #D27E99 !important;\
     // read email date & time column
@@ -89,7 +92,7 @@
   input[type='checkbox'] {\
     accent-color: #7fb4ca !important;\
   }\
-  input[type='submit'], select[name='tact']>option {\
+  input[type='submit'] {\
     font-family: 'Lexend', sans-serif !important;\
   }\
   .msg>div>*,\
@@ -123,7 +126,7 @@
     display: flex;\
   }\
   td[bgcolor='#C3D9FF'] {\
-    background-color: #2a2a37 !important;\
+    background-color: #223249 !important;\
   }\
   span[style='font-weight:bold'], span[style='font-weight:bold']>strong {\
     color: #DCA561 !important;\
@@ -144,6 +147,11 @@
   }\
   h2 {\
     color: #D27E99 !important;\
+  }\
+  img[src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_server_1x.png"] {\
+    content: url('https://1000logos.net/wp-content/uploads/2018/05/Gmail-Logo-2010.png');\
+    width: 140px !important;\
+    height: 70px !important;\
   }\
   `;
   var style = document.createElement("style");

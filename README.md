@@ -12,13 +12,10 @@ but you can use any other userscript chrome extension
 ## TODO:
 - [X] Change the tamperscripts to only target html gmail, not Standard View
 - [X] Change color of header links to fit dark theme
-- [ ] New Email Notifications
-    * Polling every 5 minutes and if unread email number increments, then
-      change title of browser tab with number of new unread emails.
-    * When the browser tab is focused on html gmail, reset counter of new
-      unread emails to 0.
+- [X] New Email Notifications
 - [ ] Schedule Send
-    * Viewing scheduled mail and sending scheduled mail
+    * Viewing scheduled mail 
+    * Sending scheduled mail
 - [ ] Google Chat integration
     * Includes Spaces and Chats.
     * Must include critical features from modern gmail into html gmail:

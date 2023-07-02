@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  Automatically reloads for new emails and creates a notification in Gmail (HTML version)
 // @author       Sajarin
-// @match        https://mail.google.com/*
+// @match        https://mail.google.com/mail/u/*/h/*/
 // @grant        GM_notification
 // ==/UserScript==
 
